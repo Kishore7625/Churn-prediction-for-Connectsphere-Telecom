@@ -49,5 +49,3 @@ A simple **Artificial Neural Network (ANN)** using Keras:
 
 ---
 
-## 📁 Files
-
