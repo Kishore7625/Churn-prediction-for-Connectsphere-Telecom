@@ -1,22 +1,19 @@
-# 📊 Churn Prediction for ConnectSphere Telecom
+#  Churn Prediction for ConnectSphere Telecom
 
-## 🔍 Problem Statement
+## Problem Statement
 
 Customer retention is critical in the telecom industry. This project aims to predict whether a customer is likely to churn using demographic, service, and billing data. Early identification allows companies like **ConnectSphere** to take proactive steps to reduce churn.
 
 ---
 
-## 📁 Dataset
-
-- 📌 **Source**: YBI Foundation  
-- 📄 **Link**: [TelecomCustomerChurn.csv](https://raw.githubusercontent.com/YBIFoundation/Dataset/refs/heads/main/TelecomCustomerChurn.csv)  
-- 👥 **Rows**: ~7000  
-- 🎯 **Target**: `Churn` (Yes/No)  
-- 📊 Features: Customer demographics, contract type, internet/billing issues, tenure, charges, etc.
+## Dataset  
+- **Rows**: ~7000  
+- **Target**: `Churn` (Yes/No)  
+- Features: Customer demographics, contract type, internet/billing issues, tenure, charges, etc.
 
 ---
 
-## 🧠 Model
+## Model
 
 A simple **Artificial Neural Network (ANN)** using Keras:
 
@@ -29,16 +26,16 @@ A simple **Artificial Neural Network (ANN)** using Keras:
 
 ---
 
-## 📈 Results
+## Results
 
-- ✅ Accuracy: ~80–85%
-- ✅ Precision/Recall: Balanced
-- ✅ Classification report & confusion matrix
-- ✅ Training history visualization
+- Accuracy: ~80–85%
+- Recall: Balanced
+- Classification report & confusion matrix
+- Training history visualization
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - Python
 - Pandas, NumPy
